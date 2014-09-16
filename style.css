@@ -91,5 +91,21 @@ Version: 0.1
 
 .gform_footer.top_label {
 	float: right;
-	margin: -65px 0 0 0;
+	margin: -65px -20px 0 0;
+}
+
+
+/* Portfolio detaljer fjernet/lagt til ------------------------------------------------------*/
+
+
+.portfolio-items .col .work-info .vert-center a:first-child {
+  display: none!important;
+}
+
+#project-meta { 
+    display: none!important;
+}
+
+.portfolio-items .nectar-love-wrap {
+   display: none!important;
 }
